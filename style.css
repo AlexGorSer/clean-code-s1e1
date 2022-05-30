@@ -152,7 +152,7 @@ button {
 }
 
 /* Completed */
-ul#completed-tasks label {
+#completed-tasks .completed {
   text-decoration: line-through;
     color: #888;
 }
@@ -167,6 +167,6 @@ ul#completed-tasks label {
   width:224px
 }
 
-.conteiner-list .todo-item.edit-mode label {
+.conteiner-list .todo-item.edit-mode .completed {
   display:none;
 }
