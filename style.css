@@ -109,7 +109,7 @@ button {
   margin: 0 0 20px;
 }
 
-#new-task {
+#new {
   width: 318px;
 }
 
@@ -164,7 +164,7 @@ button {
 }
 
 /* Completed */
-#completed-tasks 
+#completed
 .task {
   text-decoration: line-through;
   color: #888;
