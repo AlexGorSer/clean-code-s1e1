@@ -132,7 +132,7 @@ button {
 
 .item-list 
 > 
-.input-checkbox {
+.item-list__input-checkbox {
   margin: 0 10px;
 }
 
@@ -151,14 +151,14 @@ button {
   width: 226px
 }
 
-.delete
+.item-list__button-delete
 .remove-icon {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
 
-.delete 
+.item-list__button-delete 
 .remove-icon:hover {
   transform: rotateZ(0);
 }
@@ -186,6 +186,6 @@ button {
 
 .tasks-container 
 .edit-mode 
-.label-item {
+.item-list__label-item {
   display: none;
 }
