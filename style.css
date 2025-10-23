@@ -151,14 +151,14 @@ button {
   width: 226px;
 }
 
-.item-list__button-delete
+.item-list__button_delete
 .remove-icon {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
 
-.item-list__button-delete 
+.item-list__button_delete 
 .remove-icon:hover {
   transform: rotateZ(0);
 }
